@@ -1,0 +1,99 @@
+ body {
+     background-color: #000000;
+     color: #FFFFFF;
+     font-family: Inter;
+     font-weight: 400;
+     font-style: Regular;
+     line-height: 100%;
+     letter-spacing: 0%;
+     display: flex;
+     justify-content: center;
+     padding: 20px;
+
+ }
+
+ .container {
+     background-color: #000000;
+     color: #000000;
+     padding: 20px;
+     max-width: 400px;
+     width: 100%;
+ }
+
+ .container-head {
+     background-color: #FFFFFF;
+     padding: 15px;
+     min-height: 130px;
+ }
+
+ .container-head h1 h2 {
+     font-weight: 700;
+     font-style: Bold;
+     font-size: 100px;
+     line-height: 100%;
+     letter-spacing: 0%;
+
+ }
+
+ .box {
+     border: 1px solid #000000;
+     padding: 10px;
+     min-height: 120px;
+     background-color: #FFFFFF;
+ }
+
+ .section {
+     margin-top: 20px;
+     background-color: #000000;
+ }
+
+ input {
+     width: 95%;
+     padding: 6px;
+     margin: 5px 0;
+ }
+
+ .section h2 {
+     font-weight: 700;
+     font-style: Bold;
+     line-height: 100%;
+     letter-spacing: 0%;
+     color: #FFFFFF;
+ }
+
+ #address {
+     background-color: #000000;
+ }
+
+
+ button {
+     padding: 5px 10px;
+     color: #000000;
+     background-color: #FFFFFF;
+     border: none;
+     cursor: pointer;
+ }
+
+ .error {
+     color: red;
+     margin-top: 5px;
+     font-size: 0.9rem;
+ }
+
+ #result-section {
+     margin-top: 15px;
+     display: none;
+
+ }
+
+ .box1 {
+     border: 1px solid #FFFFFF;
+     padding: 10px;
+     min-height: 120px;
+     background-color: #000000;
+     color: #FFFFFF;
+ }
+
+ .result-class h2 {
+     color: #FFFFFF;
+ }

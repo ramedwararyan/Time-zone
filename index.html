@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>TimeZone API</title>
+<link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<div class="container">
+    <div class="container-head">
+        <h1>TimeZone API</h1>
+        <h2>Your Current Time Zone</h2>
+    <div class="box" id="current-tz">    
+        <p>Name Of Time Zone : <span id="curr-name"></span><br></p>
+        <p>Lat: <span id="curr-lat"></span></p> 
+        <p>Long: <span id="curr-lon"></span><br></p>
+        <p>Offset STD: <span id="curr-std"></span><br></p>
+        <p>Offset STD Seconds : <span id="curr-std-sec"></span><br></p>
+        <p>Offset DST : <span id="curr-dst"></span><br></p>
+        <p>Offset DST Seconds: <span id="curr-dst-sec"></span><br></p>
+        <p>Country: <span id="curr-country"></span><br></p>
+        <p>Postcode: <span id="curr-postcode"></span><br></p>
+        <p>City: <span id="curr-city"></span></p>
+    </div>
+    </div>
+
+    <div class="section">
+        <h2>Enter Address</h2>
+        <input type="text" id="address" placeholder="Address">
+        <button id="submit-btn">Submit</button>
+        <div id="error-message" class="error"></div>
+    </div>
+
+    <div id="result-section" class="result-class">
+        <h2>Your result</h2>
+        <div class="box1">
+            <p>Name Of Time Zone : <span id="res-name"></span><br></p>
+            <p>Lat: <span id="res-lat"></span> </p> <p> Long: <span id="res-lon"></span><br></p>
+            <p>Offset STD: <span id="res-std"></span><br></p>
+            <p>Offset STD Seconds : <span id="res-std-sec"></span><br></p>
+            <p>Offset DST : <span id="res-dst"></span><br></p>
+            <p>Offset DST Seconds: <span id="res-dst-sec"></span><br></p>
+            <p>Country: <span id="res-country"></span><br></p>
+            <p>Postcode: <span id="res-postcode"></span><br></p>
+            <p>City: <span id="res-city"></span></p>
+        </div>
+    </div>
+</div>
+<script type= "text/javascript" src="script.js"></script>
+
+</body>
+</html>
